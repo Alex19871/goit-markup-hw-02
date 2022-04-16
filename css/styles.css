@@ -53,6 +53,9 @@ span {
         text-decoration: none;
         color: var(--header-color);
     }
+    .pointer {
+        cursor: pointer;
+    }
     .header-link:hover,
     .header-link:focus {
         color: var(--accent-color);
@@ -78,6 +81,10 @@ span {
         letter-spacing: 0.02em;
         color: var(--contacts-color);
     }
+    .header-tel:hover,
+    .header-tel:focus {
+        color: var(--accent-color);
+    }
     /* ----------------------------------------HERO------------------------------------------- */
     .hero {
      background-color: var(--hero-footer-bgc-color);
@@ -100,6 +107,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+color: var(--main-title-color);
 background-color: var(--accent-color);
     }
     /* ------------------------------------FEATURE----------------------------------- */
@@ -162,12 +170,20 @@ background-color: var(--accent-color);
         letter-spacing: 0.03em;
         color: var(--footer-logo-color);
     }
+    .footer-add-link:hover,
+    .footer-add-link:focus {
+        color: var(--accent-color);
+    }
     .footer-link {
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+    }
+    .footer-link:hover,
+    .footer-link:focus {
+        color: var(--accent-color);
     }
     .services-item-btn {
         font-family: 'Roboto';
